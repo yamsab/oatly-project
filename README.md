@@ -1,1 +1,34 @@
-# oatly-project
+# Find Your Perfect Oatly — Service Design Student Prototype
+
+An **independent university service design prototype** exploring improvements to Oatly's product-discovery experience. **Not an official Oatly website, and not affiliated with or endorsed by Oatly.**
+
+## What you can try
+
+- **Find Your Perfect Oatly:** filter sample products by sugar content, fat level, intended use, flavour, and organic preference.
+- **Side-by-side comparison:** compare product information with clear caveats about sustainability metrics.
+- **Ask Oatly:** a friendly **guided, rule-based demonstration** that answers common product questions and helps apply filters. It is **not a live generative AI service**.
+- **Optional voice controls:** speech recognition and spoken responses where the browser supports them.
+
+## Open and publish
+
+The site is a static HTML prototype: `index.html` contains the interface, styles and JavaScript.
+
+To publish it with GitHub Pages:
+1. Open **Settings → Pages** for this repository.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select **main** and **/(root)**, then click **Save**.
+4. Wait for GitHub Pages to provide the HTTPS link: `https://yamsab.github.io/oatly-project/`.
+
+### Microphone notes
+
+Speech recognition requires compatible browser support, permission to use the microphone, and usually HTTPS (or localhost). Test the *deployed HTTPS site* rather than opening a downloaded HTML file with a `content://` address. If microphone support is unavailable or permission is denied, typing still works. Speech features may vary by Android/browser language settings and may rely on browser-provided cloud recognition.
+
+## Course context
+
+Designed for **GM1121 Service Design – Applied Consumer Behaviour**, as a practical demonstration of user-centred digital touchpoints, customer choice, engagement, trust and transparency. Relevant course themes include customer journey (Lemon & Verhoef, 2016), digital service innovation (Vargo et al., 2024), and authenticity in computer-generated interactions (Lou et al., 2023). These are design motivations—not evidence that the prototype improves outcomes without user testing.
+
+## Important limitations
+
+- Products and details are illustrative samples; verify current descriptions, ingredient/nutrition and footprint data against original Oatly sources before citing them in a report.
+- The assistant does not check real-time store stock, location, or pricing.
+- The prototype does not submit orders or collect account details.
